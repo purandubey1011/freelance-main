@@ -1,0 +1,28 @@
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 90s linear infinite;
+}
+
+.marquee p {
+    pointer-events: none;
+    display: inline-block;
+    color: rgb(156, 154, 154);
+    letter-spacing: .5vw;
+    font-size: 10vmax;
+    line-height: 0.5vmax;
+    text-transform: uppercase;
+    color: #3f3e43;
+    font-weight: 500;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}

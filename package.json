@@ -1,0 +1,42 @@
+{
+  "name": "car-wrap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/inter": "^5.0.19",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/x-date-pickers": "^7.1.1",
+    "@react-three/drei": "^9.105.5",
+    "@react-three/fiber": "8.15",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@splidejs/react-splide": "^0.7.12",
+    "dayjs": "^1.11.10",
+    "fontsource-inter": "^4.0.0",
+    "mui-one-time-password-input": "^2.0.2",
+    "mui-tel-input": "^5.1.2",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9.1.0",
+    "react-toastify": "^10.0.5",
+    "swiper": "^8.0.0",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "twilio": "^5.0.4"
+  }
+}
